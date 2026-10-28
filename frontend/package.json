@@ -35,5 +35,8 @@
     "prettier": "3.9.10",
     "ts-jest": "29.4.15",
     "typescript": "5.9.3"
+  },
+  "resolutions": {
+    "postcss": "^8.5.18"
   }
 }
