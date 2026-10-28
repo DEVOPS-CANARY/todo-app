@@ -51,6 +51,11 @@
     "preset": "ts-jest",
     "testEnvironment": "node",
     "rootDir": "src",
-    "testMatch": ["**/*.spec.ts"]
+    "testMatch": [
+      "**/*.spec.ts"
+    ]
+  },
+  "resolutions": {
+    "multer": "^2.5.0"
   }
 }
