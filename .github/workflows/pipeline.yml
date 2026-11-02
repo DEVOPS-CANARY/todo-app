@@ -1,4 +1,4 @@
-# The platform's shared pipeline (DEVOPS-CANARY/golden-path): gates on every
+# The platform's shared pipeline (DEVOPS-CANARY/platform-golden-path): gates on every
 # PR; build, scan and deploy to UAT on develop; hotfixes to staging; promotion
 # to staging and prod with the same images. Rules and docs live there.
 name: Pipeline
@@ -20,7 +20,7 @@ concurrency:
 
 jobs:
   pipeline:
-    uses: DEVOPS-CANARY/golden-path/.github/workflows/pipeline.yml@v1
+    uses: DEVOPS-CANARY/platform-golden-path/.github/workflows/pipeline.yml@v1
     permissions:
       contents: read
       packages: write # push images to GHCR
